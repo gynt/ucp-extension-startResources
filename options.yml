@@ -1,0 +1,109 @@
+options:
+- display: GroupBox
+  header: Normal game
+  text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
+  hasHeader: true
+  category:
+  - Start resources
+  - Start gold
+  children:
+  - display: GroupBox
+    header: Major human advantage
+    text: Settings for when the human has an advantage (left-most option in the Skirmish menu)
+    children:
+    - url: startGoods.startGold.normal.majorHumanAdvantage.human
+      text: Human has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 8000
+    - url: startGoods.startGold.normal.majorHumanAdvantage.computer
+      text: Computer has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+  - display: GroupBox
+    header: Minor human advantage
+    text: Settings for when the human has a slight advantage (left-most option in the Skirmish menu)
+    children:
+    - url: startGoods.startGold.normal.minorHumanAdvantage.human
+      text: Human has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 4000
+    - url: startGoods.startGold.normal.minorHumanAdvantage.computer
+      text: Computer has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+  - display: GroupBox
+    header: No advantage
+    text: Settings for when the human has no advantage (left-most option in the Skirmish menu)
+    children:
+    - url: startGoods.startGold.normal.noAdvantage.human
+      text: Human has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+    - url: startGoods.startGold.normal.noAdvantage.computer
+      text: Computer has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+  - display: GroupBox
+    header: Minor computer advantage
+    text: Settings for when the computer has a slight advantage (left-most option in the Skirmish menu)
+    children:
+    - url: startGoods.startGold.normal.minorComputerAdvantage.human
+      text: Human has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+    - url: startGoods.startGold.normal.minorComputerAdvantage.computer
+      text: Computer has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 4000
+  - display: GroupBox
+    header: Major computer advantage
+    text: Settings for when the computer has a major advantage (left-most option in the Skirmish menu)
+    children:
+    - url: startGoods.startGold.normal.majorComputerAdvantage.human
+      text: Human has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 2000
+    - url: startGoods.startGold.normal.majorComputerAdvantage.computer
+      text: Computer has gold
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 8000
