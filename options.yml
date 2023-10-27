@@ -1,5 +1,7 @@
+specification-version: 1.0.0
 options:
-- display: GroupBox
+- name: gold-groupbox-normal
+  display: GroupBox
   header: Normal game
   text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
   hasHeader: true
@@ -107,7 +109,8 @@ options:
         max: 1000000
         type: number
         value: 8000
-- display: GroupBox
+- name: gold-groupbox-crusader
+  display: GroupBox
   header: Crusader game
   text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
   hasHeader: true
@@ -215,7 +218,8 @@ options:
         max: 1000000
         type: number
         value: 8000
-- display: GroupBox
+- name: gold-groupbox-deathmatch
+  display: GroupBox
   header: Deathmatch game
   text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
   hasHeader: true
@@ -323,3 +327,511 @@ options:
         max: 1000000
         type: number
         value: 8000
+- name: goods-groupbox-normal
+  display: GroupBox
+  header: Normal game
+  text: Goods in a Normal game (as opposed to a Crusader or Deathmatch game)
+  hasHeader: true
+  category:
+  - Start resources
+  - Start goods
+  children:
+  - url: startResources.startGoods.normal.wood
+    text: Wood
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 100
+  - url: startResources.startGoods.normal.hop
+    text: Hop
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.stone
+    text: Stone
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 50
+  - url: startResources.startGoods.normal.iron
+    text: Iron
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.pitch
+    text: Pitch
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.wheat
+    text: Wheat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.bread
+    text: Bread
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 60
+  - url: startResources.startGoods.normal.cheese
+    text: Cheese
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.meat
+    text: Meat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.fruit
+    text: Fruit
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.beer
+    text: Beer
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.flour
+    text: Flour
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.bows
+    text: Bows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.crossbows
+    text: Crossbows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.spears
+    text: Spears
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.pikes
+    text: Pikes
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.maces
+    text: Maces
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.swords
+    text: Swords
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.leatherarmor
+    text: Leather armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.normal.metalarmor
+    text: Metal armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+- name: goods-groupbox-crusader
+  display: GroupBox
+  header: Crusader game
+  text: Goods in a Crusader game (as opposed to a Normal or Deathmatch game)
+  hasHeader: true
+  category:
+  - Start resources
+  - Start goods
+  children:
+  - url: startResources.startGoods.crusader.wood
+    text: Wood
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 100
+  - url: startResources.startGoods.crusader.hop
+    text: Hop
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.stone
+    text: Stone
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 50
+  - url: startResources.startGoods.crusader.iron
+    text: Iron
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.pitch
+    text: Pitch
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.wheat
+    text: Wheat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.bread
+    text: Bread
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 60
+  - url: startResources.startGoods.crusader.cheese
+    text: Cheese
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.meat
+    text: Meat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.fruit
+    text: Fruit
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.beer
+    text: Beer
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.flour
+    text: Flour
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.bows
+    text: Bows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.crossbows
+    text: Crossbows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.spears
+    text: Spears
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.pikes
+    text: Pikes
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.maces
+    text: Maces
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.swords
+    text: Swords
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.leatherarmor
+    text: Leather armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.crusader.metalarmor
+    text: Metal armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+- name: goods-groupbox-deathmatch
+  display: GroupBox
+  header: Deathmatch game
+  text: Goods in a Normal game (as opposed to a Crusader or Normal game)
+  hasHeader: true
+  category:
+  - Start resources
+  - Start goods
+  children:
+  - url: startResources.startGoods.deathmatch.wood
+    text: Wood
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 150
+  - url: startResources.startGoods.deathmatch.hop
+    text: Hop
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 20
+  - url: startResources.startGoods.deathmatch.stone
+    text: Stone
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 150
+  - url: startResources.startGoods.deathmatch.iron
+    text: Iron
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 25
+  - url: startResources.startGoods.deathmatch.pitch
+    text: Pitch
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 48
+  - url: startResources.startGoods.deathmatch.wheat
+    text: Wheat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 25
+  - url: startResources.startGoods.deathmatch.bread
+    text: Bread
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 200
+  - url: startResources.startGoods.deathmatch.cheese
+    text: Cheese
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.meat
+    text: Meat
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.fruit
+    text: Fruit
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.beer
+    text: Beer
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 10
+  - url: startResources.startGoods.deathmatch.flour
+    text: Flour
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.bows
+    text: Bows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.crossbows
+    text: Crossbows
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.spears
+    text: Spears
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.pikes
+    text: Pikes
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.maces
+    text: Maces
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.swords
+    text: Swords
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.leatherarmor
+    text: Leather armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+  - url: startResources.startGoods.deathmatch.metalarmor
+    text: Metal armor
+    display: Number
+    contents:
+      min: 0
+      max: 1000000
+      type: number
+      value: 0
+      
