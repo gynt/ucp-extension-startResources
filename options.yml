@@ -1,6 +1,868 @@
 meta:
   version: 1.0.0
 options:
+- name: troop-groupbox-crusader
+  display: GroupBox
+  header: Crusader Lords
+  text: Start troops for Human Crusader Lords
+  hasHeader: true
+  category:
+  - Start troops
+  children:
+  - name: normal
+    display: GroupBox
+    header: Normal game
+    text: Troops for Human Crusader Lords in a normal game
+    children:
+    - url: startResources.startTroops.crusader.normal.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.normal.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: crusader
+    display: GroupBox
+    header: Crusader game
+    text: Troops for Human Crusader Lords in a Crusader game
+    children:
+    - url: startResources.startTroops.crusader.crusader.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: deathmatch
+    display: GroupBox
+    header: Deathmatch game
+    text: Troops for Human Crusader Lords in a Deathmatch game
+    children:
+    - url: startResources.startTroops.crusader.deathmatch.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.deathmatch.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+- name: troop-groupbox-arabian
+  display: GroupBox
+  header: Arabian Lords
+  text: Start troops for Human Arabian lords
+  hasHeader: true
+  category:
+  - Start troops
+  children:
+  - name: normal
+    display: GroupBox
+    header: Normal game
+    text: Troops for Human Arabian Lords in a normal game
+    children:
+    - url: startResources.startTroops.arabian.normal.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.normal.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: crusader
+    display: GroupBox
+    header: Crusader game
+    text: Troops for Human Arabian Lords in a Crusader game
+    children:
+    - url: startResources.startTroops.arabian.crusader.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: deathmatch
+    display: GroupBox
+    header: Deathmatch game
+    text: Troops for Human Arabian Lords in a Deathmatch game
+    children:
+    - url: startResources.startTroops.arabian.deathmatch.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
 - name: gold-groupbox-normal
   display: GroupBox
   header: Normal game
