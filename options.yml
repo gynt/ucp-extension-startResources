@@ -21,7 +21,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 5
     - url: startResources.startTroops.crusader.normal.Crossbowman
       text: Crossbowman
       display: Number
@@ -37,7 +37,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 7
     - url: startResources.startTroops.crusader.normal.Pikeman
       text: Pikeman
       display: Number
@@ -162,7 +162,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 40
     - url: startResources.startTroops.crusader.crusader.Crossbowman
       text: Crossbowman
       display: Number
@@ -202,7 +202,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 10
     - url: startResources.startTroops.crusader.crusader.Knight
       text: Knight
       display: Number
@@ -210,7 +210,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 4
     - url: startResources.startTroops.crusader.crusader.Engineer
       text: Engineer
       display: Number
@@ -303,7 +303,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 5
     - url: startResources.startTroops.crusader.deathmatch.Crossbowman
       text: Crossbowman
       display: Number
@@ -319,7 +319,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 7
     - url: startResources.startTroops.crusader.deathmatch.Pikeman
       text: Pikeman
       display: Number
@@ -524,7 +524,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 6
     - url: startResources.startTroops.arabian.normal.Slave
       text: Slave
       display: Number
@@ -532,7 +532,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 6
     - url: startResources.startTroops.arabian.normal.Slinger
       text: Slinger
       display: Number
@@ -665,7 +665,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 50
     - url: startResources.startTroops.arabian.crusader.Slave
       text: Slave
       display: Number
@@ -705,7 +705,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 10
     - url: startResources.startTroops.arabian.crusader.FireThrower
       text: Firethrower
       display: Number
@@ -806,7 +806,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 6
     - url: startResources.startTroops.arabian.deathmatch.Slave
       text: Slave
       display: Number
@@ -814,7 +814,7 @@ options:
         min: 0
         max: 1000
         type: number
-        value: 0
+        value: 6
     - url: startResources.startTroops.arabian.deathmatch.Slinger
       text: Slinger
       display: Number
