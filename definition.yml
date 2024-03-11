@@ -1,4 +1,5 @@
 name: startResources
+display-name: "Start Resources & Troops"
 author: gynt
 version: 1.0.0
 dependencies: [  ]
